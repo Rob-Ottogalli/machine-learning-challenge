@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Internal notes
+Column_Descriptors.txt
+Columns_of_Interest.txt
