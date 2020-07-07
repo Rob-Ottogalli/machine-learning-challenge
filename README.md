@@ -23,10 +23,11 @@ Performance:
 a.	Both models achieved the same accuracy score on Run 1, with most precision and recall scores remaining within a margin of 1 percentage points.  
 b.	Both models scored within a point of each other in terms of accuracy on Run 2.  For some reason, the SVM model did not register precision or recall scores for the “False positives” on Run 2.  This requires further investigation.  
 
-	SVM Model	Logistic Regression
-Run 1 Score	0.72	0.72
-Run 2 Score	0.65	0.66
-Run 3 Score	0.76	0.72
+|           | SVM Model| Logistic Regression|
+|:----------|:---------|:-------------------|
+|Run 1 Score|      0.72|                0.72|
+|Run 2 Score|      0.65|                0.66|
+|Run 3 Score|      0.76|                0.72|
 
 2)	Where the models differed was in Run 3, the grid search.  For this run, the Logistic Regression model scored the same as on its initial run.  However, the SVM model scored 0.76, showing an improvement of 4 percentage points over its Run 1 score.  This suggests that the SVM has greater performance potential on this set of data.  
 3)	On Run 3 the SVM achieved an f1 score of 0.81 for “Confirmed” planets, but a score of 0.68 on “False positives.”   
